@@ -1,0 +1,51 @@
+header {
+    background: #0F3D4C;
+    margin: 0px auto;
+    padding: 5px;
+    text-align: center;
+    max-width: 650:
+
+}
+
+nav {
+    text-align: center;
+}
+
+body {
+    background: #E0EDF3;
+    margin: 0px auto;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+
+
+body ul li {
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+#gallery{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+
+
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    border-top: groove;
+    float: none;
+}
+
+#Comments {
+    text-align: center
+    paddiing: 5px 0px 5px 0px;
+
+
+}
+

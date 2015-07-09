@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LiveMod - About</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/aboutlayout.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Indie+Flower' rel='stylesheet' type='text/css'>
+    <title>LiveMod - About</title>
+</head>
+<body>
+<header>
+    <img src="images/admin-logo.png">
+
+
+</header>
+
+<p>About the developer:</p>
+<ul>
+    <li> I'm an up and coming web developer working on my front end skills. To do this I'm taking a crash course on front end dev!</li>
+
+    <li>I current have a website that I'm building. The link is <a href="http://www.jextrdesigns.com">jextrdesigns</a>. Currently the website is under construction.
+    I am looking forward to getting it finished up to do some work for you!</li>
+</ul>
+
+
+
+<p> Here are some of the fantastic things that Jason made in Photoshop!</p>
+
+<ul id="gallery">
+    <li>Gallery:</li>
+    <li><img src="images/cat-picture.jpg"> </li>
+    <li>Here's a trippy picture of a cat!</li>
+    <li><img src="images/skull-picture.jpg"></li>
+    <li>A nice, skull if I do say so myself!</li>
+    <li><img src="images/tiger-picture.jpg"> </li>
+    <li>Tigers *love* pepper. They hate cinnamon.</li>
+    <li></li>
+    <li>Oh, the wonders on the internets.</li>
+
+</ul>
+
+<div id="Comments">
+    <p> Please add any comments you would like to add here:</p>
+    <button id="commentsbutton" onclick="buttonCLick()">Enter comments</button>
+
+    <br>
+
+</br>
+    <textarea id="commentsarea"></textarea>
+
+
+    <script>
+        document.getElementById("commentsbutton").onclick = function () {
+          buttonCLick()};
+
+          function buttonCLick() {
+
+              if (document.getElementById("commentsarea").value == "") {
+                  alert("I think you forgot to enter your comments. Why don't you try that again.")
+              }
+
+              else if (document.getElementById("commentsarea") != null) {
+                  alert(document.getElementById("commentsarea").value);
+              }
+
+          }
+
+    </script>
+
+
+</div>
+
+</body>
+<footer>
+    <ul>
+    <li>
+        &copy;<a href="http://techguydiy.com">Tech Guy DIY</a> 2015
+    </li>
+    <li><a href="https://twitter.com/techguydiy" class="twitter-follow-button" data-show-count="false">Follow @techguydiy</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </li>
+    <li><a href="http://www.facebook.com/techguydiy" src="images/fb-logo.png"></a> </li>
+    </ul>
+</footer>
+</html>
